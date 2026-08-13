@@ -22,7 +22,7 @@ with:
 node-node-version: '20'
 # Step 3: Clean install your project dependencies (Jest)
 - name: Install Dependencies
-run: npm ci
+run: npm install
 # Step 4: Run the automated unit tests
 - name: Run Tests
 run: npm test
