@@ -18,7 +18,7 @@ uses: actions/checkout@v4
 - name: Setup Node.js
 uses: actions/setup-node@v4
 with:
-node-node-version: '20'
+node-node-version: "20"
 # Step 3: Clean install your project dependencies (Jest)
 - name: Install Dependencies
 run: npm install
